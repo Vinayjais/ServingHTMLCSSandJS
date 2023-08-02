@@ -19,10 +19,15 @@ h1{
   .itemlist{
    margin: 0px;
    display: flex;
-   color: black;
+   color: rgb(38, 0, 255);
+   text-decoration: none;
+   list-style: none;
 
   }
+  
   .item{
    padding: 10px;
-   text-decoration: none;
+   
+   
   }
+

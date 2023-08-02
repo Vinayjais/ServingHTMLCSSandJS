@@ -1,0 +1,18 @@
+.container .abc input{
+    width: 300px;
+}
+.container form .btn{
+    width: 600px;
+}
+.container form {
+    background-color: azure;
+    padding: 25px;
+}
+@media (width:500px){
+    .container .abc input{
+    width: 150px;
+}
+.container form .btn{
+    width: 300px;
+}
+}
