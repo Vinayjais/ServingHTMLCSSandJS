@@ -1,3 +1,6 @@
+ 
+ const Product = require('../models/product');
+ 
 
 const path = require('path');
 exports.addproductController = (req,res,next) =>{
@@ -7,7 +10,9 @@ exports.addproductController = (req,res,next) =>{
 };
 
  exports.productcontroller = (req,res,next) =>{
-    console.log(req.body);
+    const product = new Product(req.body.title);
+    product.save();
+   // console.log(req.body.title);
     res.redirect('/');
 
   };

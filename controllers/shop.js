@@ -1,5 +1,12 @@
 const path = require('path');
+const Product = require('../models/product');
 
 exports.shopcontroller = (req,res,next)=>{
-    res.sendFile(path.join(__dirname,'../','views','shop.html'));
+    Product.fetchAll( products =>{
+        console.log(products);
+        res.sendFile(path.join(__dirname,'../','views','shop.html'));
+    
+    });
+   
+
 };

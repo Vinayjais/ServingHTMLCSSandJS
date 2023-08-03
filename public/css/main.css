@@ -19,7 +19,7 @@ h1{
   .itemlist{
    margin: 0px;
    display: flex;
-   color: rgb(38, 0, 255);
+   
    text-decoration: none;
    list-style: none;
 
@@ -27,7 +27,9 @@ h1{
   
   .item{
    padding: 10px;
-   
+   color: rgb(38, 0, 255);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 22px;
    
   }
 
